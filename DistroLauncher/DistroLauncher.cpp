@@ -36,6 +36,12 @@ HRESULT InstallDistribution(bool createUser)
         return hr;
     }
 
+    hr = g_wslApi.WslLaunchInteractive(L"/bin/echo root:gentoo | /usr/sbin/chpasswd && echo -e '\033[1;33mDefault root password set to \033[0;31mgentoo\033[1;33m !\033[0m'", true, &exitCode);
+    if (FAILED(hr)) {
+        return hr;
+    }
+
+
     // Create a user account.
     if (createUser) {
         Helpers::PrintMessage(MSG_CREATE_USER_PROMPT);
