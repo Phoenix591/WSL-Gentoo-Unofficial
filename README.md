@@ -1,3 +1,15 @@
+Gentoo WSL Unofficial 
+(lightly modified example distro launcher with Gentoo titling and official logos (trademark the Gentoo Foundation))
+ just add your own 
+( nomultilib if wsl 1 compatibility is desired) 
+stage 3 to checkout directory/x64/install.tar.gz ( probabily needs to be recompressed to .tar.gz)
+
+
+
+Note: due to my own reasons 
+(I was playing with this previously, had it installed but lost the source to that and wanted to keep it installed while working and properly saving the source this time) 
+when setting it up for myself I put a 2 after WSL
+
 # WSL Distro Launcher Reference Implementation
 ## Introduction 
 This is the C++ reference implementation for a Windows Subsystem for Linux (WSL) distribution installer/launcher application. Every distro package must include a launcher app, which is responsible for completing installation & registration of your distro with WSL, and for launching new distro instances atop WSL.
