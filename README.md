@@ -1,8 +1,10 @@
 Gentoo WSL Unofficial
 
 
-lightly modified example distro launcher with Gentoo titling and official logos 
- just add your own stage 3 to checkout directory/x64/install.tar.gz ( probabily needs to be recompressed to .tar.gz)
+Lightly modified example distro launcher with Gentoo titling and official logos 
+
+
+Just add your own stage 3 to checkout directory/x64/install.tar.gz ( needs to be recompressed to .tar.gz)
 
 
 # WSL Distro Launcher Reference Implementation
